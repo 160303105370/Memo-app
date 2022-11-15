@@ -1,13 +1,13 @@
 from datetime import datetime
 
+#Class for storing data as an object in our list
 class Memo:
     def __init__(self,memo,date, time):
         self.memo=memo
         self.date=date
         self.time=time
 
-
-
+#Main Function that contains all the CRUD operations
 def main(n,l):
     if(n==1):
         memo=input("Enter the memo: ")
@@ -60,13 +60,7 @@ def main(n,l):
         else:
             return
         
-
-
-
-
-
-
-    
+#Program from where we call our functions   
 n=0
 l=[]
 while(n!=5):
